@@ -44,7 +44,7 @@ export const registerUser = async(req, res)=>{
         console.log(e.message)
         return res.status(500).json({
             sucess:false,
-            message:"Internal Server error"
+            message: e.message
             
         })
     }
