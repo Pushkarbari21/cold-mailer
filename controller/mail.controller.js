@@ -60,6 +60,7 @@ extraction.data?.email || "",
  }).sort({ createdAt: -1 });
  res.status(200).json({
  success: true,
+  emails
  
  });
  } catch (error) {
