@@ -1,4 +1,3 @@
-//Hii
 import express from 'express'
 import connectDB from './config/db.js'
 import authRoutes from './routes/auth.routes.js'
