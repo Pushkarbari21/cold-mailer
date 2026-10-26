@@ -10,6 +10,6 @@ router.get("/", authMiddleware, getMyEmails);
 router.get("/:id", authMiddleware, getEmailById);
 router.put('/:id', authMiddleware, updateEmail);
 router.delete('/:id', authMiddleware, deleteEmail);
-router.post('/send/:id', authMiddleware, sendEmail);
+router.post('/send', authMiddleware, sendEmail);
 export default router;
 
