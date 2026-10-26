@@ -44,6 +44,7 @@ extraction.data?.email || "",
  res.status(201).json({
  success: true,
  message: "Emails generated successfully",
+ emails
  
  });
  } catch (error) {
